@@ -12,7 +12,7 @@ export default function FeaturesBlocks() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Explore the solutions</h2>
+            <h2 className="h2 mb-4">
             <p className="text-xl text-gray-600">
               Experience the Cutting-Edge Innovation: Elevate Your Content with
               AI-Driven Video Creation
