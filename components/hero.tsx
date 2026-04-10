@@ -40,12 +40,7 @@ export default function Hero() {
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
-            <h1
-              className="text-4xl md:text-5xl font-extrabold leading-tighter tracking-tighter mb-8"
-              data-aos="zoom-y-out"
-            >
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">
-                AI-Powered <br />
+            
               </span>
               Content Creation Revolution
             </h1>
