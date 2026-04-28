@@ -8,15 +8,7 @@ html {
 .form-select:focus,
 .form-checkbox:focus,
 .form-radio:focus {
-    @apply ring-0;
-}
-
-/* Hamburger button */
-.hamburger svg>*:nth-child(1),
-.hamburger svg>*:nth-child(2),
-.hamburger svg>*:nth-child(3) {
-    transform-origin: center;
-    transform: rotate(0deg);
+ate(0deg);
 }
 
 .hamburger svg>*:nth-child(1) {
