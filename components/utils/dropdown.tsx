@@ -1,6 +1,4 @@
 'use client'
-
-import { useState } from 'react'
 import { Transition } from '@headlessui/react'
 
 type DropdownProps = {
