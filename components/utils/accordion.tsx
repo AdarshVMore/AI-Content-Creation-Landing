@@ -2,12 +2,7 @@
 
 import { useState, useRef, useEffect } from 'react'
 
-type AccordionpProps = {
-  children: React.ReactNode
-  tag?: string
-  title: string
-  active?: boolean
-}
+
 
 export default function Accordion({
   children,
