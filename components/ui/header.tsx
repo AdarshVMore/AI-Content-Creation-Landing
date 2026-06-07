@@ -19,7 +19,7 @@ export default function Header() {
   useEffect(() => {
     scrollHandler()
     window.addEventListener('scroll', scrollHandler)
-    return () => window.removeEventListener('scroll', scrollHandler)
+     () => window.removeEventListener('scroll', scrollHandler)
   }, [top])
 
   return (
