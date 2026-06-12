@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useRef, useEffect, useCallback } from 'react'
+import { useState, useRef, useEffect } from 'react'
 import { Transition } from '@headlessui/react'
 import Link from 'next/link'
 import clsx from 'clsx'
@@ -11,9 +11,9 @@ export default function MobileMenu() {
   const triggerRef = useRef<HTMLButtonElement>(null)
   const menuRef = useRef<HTMLDivElement>(null)
 
-  const closeMenu = useCallback(() => {
+  const closeMenu = () => {
     setIsOpen(false)
-  }, [])
+  }
 
   const toggleMenu = () => {
     setIsOpen(prev => !prev)
@@ -47,7 +47,7 @@ export default function MobileMenu() {
       document.removeEventListener('click', handleClickOutside)
       document.removeEventListener('keydown', handleEscape)
     }
-  }, [isOpen, closeMenu])
+  }, [isOpen])
 
   return (
     <div className="flex md:hidden">
