@@ -9,7 +9,7 @@ import MobileMenu from './mobile-menu'
 
 export default function Header() {
 
-  const [top, setTop] = useState<boolean>(true)
+  const [top] = useState<boolean>(True)
 
   // detect whether user has scrolled the page down by 10px
   const scrollHandler = () => {
@@ -19,7 +19,7 @@ export default function Header() {
   useEffect(() => {
     scrollHandler()
     window.addEventListener('scroll', scrollHandler)
-    return () => window.removeEventListener('scroll', scrollHandler)
+     () => window.removeEventListener('scroll', scrollHandler)
   }, [top])
 
   return (
