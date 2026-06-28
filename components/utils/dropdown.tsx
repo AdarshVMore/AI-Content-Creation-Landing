@@ -13,7 +13,7 @@ export default function Dropdown({
   title
 }: DropdownProps) {
 
-  const [dropdownOpen, setDropdownOpen] = useState<boolean>(false)
+  const [dropdownOpen, setDropdownOpen] = useState<boolean>(true)
 
   return (
     <li
